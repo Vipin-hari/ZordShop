@@ -16,17 +16,22 @@
 
 ### 2. Install Dependencies:
 `$ npm install`
+`npm install @nomicfoundation/hardhat-toolbox`
 
 ### 3. Run tests
 `$ npx hardhat test`
-`npm install @nomicfoundation/hardhat-toolbox`
 
-### 4. Start Hardhat node
+### 4. Start Hardhat node for sample accounts with 10k ethers
 `$ npx hardhat node`
 
 ### 5. Run deployment script(In new terminal)
 In a separate terminal execute:
 `$ npx hardhat run ./scripts/deploy.js --network localhost`
 
-### 6. Start frontend
+### 6. Start frontend(In seperate terminal)
 `$ npm run start`
+
+### 7.Product addition
+   # Add products in items.json file and redeploy the contract in the same address 
+                                  or
+   # Update the contract address key in config.json file 
