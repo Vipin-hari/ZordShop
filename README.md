@@ -32,6 +32,5 @@ In a separate terminal execute:
 `$ npm run start`
 
 ### 7.Product addition
-   # Add products in items.json file and redeploy the contract in the same address 
-                                  or
+   # Add products in items.json file and redeploy the contract in the same address or
    # Update the contract address key in config.json file 
